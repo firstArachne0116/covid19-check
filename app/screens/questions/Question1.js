@@ -6,7 +6,7 @@ import Header from '../../components/Header';
 const Question1 = (props) => {
   return (
     <View style={styles.container}>
-      <Header route={'Failed'} navigate={props.navigation.navigate} />
+      <Header route={'Home'} navigate={props.navigation.navigate} />
       <View style={styles.mainContainer}>
         <View style={styles.mainContent}>
           <Text style={[styles.mainText]}>
@@ -22,7 +22,9 @@ const Question1 = (props) => {
             </TouchableOpacity>
             <TouchableOpacity
               style={{paddingLeft: 17}}
-              onPress={() => props.navigation.navigate('Question2')}>
+              onPress={() =>
+                props.navigation.navigate('Question2', {failed: true})
+              }>
               <Image source={require('../../assets/images/YES.png')} />
             </TouchableOpacity>
           </View>
@@ -58,7 +60,7 @@ const styles = {
   },
   mainText: {
     fontSize: 22,
-    fontFamily: 'Inter',
+    fontFamily: 'Inter-Medium-slnt=0',
     lineHeight: 34,
   },
   text: {

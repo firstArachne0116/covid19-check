@@ -54,6 +54,17 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>UIAppFonts</key>
-	<array/>
+	<array>
+		<string>Inter-VariableFont_slnt,wght.ttf</string>
+		<string>Inter-Black-slnt=0.ttf</string>
+		<string>Inter-Bold-slnt=0.ttf</string>
+		<string>Inter-ExtraBold-slnt=0.ttf</string>
+		<string>Inter-ExtraLight-slnt=0.ttf</string>
+		<string>Inter-Light-slnt=0.ttf</string>
+		<string>Inter-Medium-slnt=0.ttf</string>
+		<string>Inter-Regular-slnt=0.ttf</string>
+		<string>Inter-SemiBold-slnt=0.ttf</string>
+		<string>Inter-Thin-slnt=0.ttf</string>
+	</array>
 </dict>
 </plist>

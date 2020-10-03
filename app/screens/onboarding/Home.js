@@ -6,7 +6,7 @@ import Header from '../../components/Header';
 const Home = (props) => {
   return (
     <View style={styles.container}>
-      <Header route={'Failed'} navigate={props.navigation.navigate} />
+      <Header route={'Home'} navigate={props.navigation.navigate} />
       <View style={styles.mainContainer}>
         <Image
           source={require('../../assets/images/ba-logo-shield-3x.png')}
@@ -55,7 +55,7 @@ const styles = {
   },
   title: {
     fontSize: 30,
-    fontWeight: 'bold',
+    fontFamily: 'Inter-Bold-slnt=0',
   },
   mainText: {
     fontSize: 18,
@@ -64,7 +64,7 @@ const styles = {
   bodyText: {
     paddingLeft: 12,
     paddingTop: 21,
-    fontFamily: 'Inter',
+    fontFamily: 'Inter-Medium-slnt=0',
   },
   text: {
     marginTop: 30,

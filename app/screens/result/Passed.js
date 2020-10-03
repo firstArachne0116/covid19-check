@@ -45,16 +45,17 @@ const styles = {
   },
   title: {
     fontSize: 34,
-    fontWeight: 'bold',
+    fontFamily: 'Inter-Bold-slnt=0',
     paddingTop: 30,
   },
   mainText: {
     fontSize: 20,
-    fontWeight: 'bold',
+    fontFamily: 'Inter-Bold-slnt=0',
   },
   dateText: {
     fontSize: 20,
     paddingTop: 20,
+    fontFamily: 'Inter-Medium-slnt=0',
   },
   bodyText: {
     lineHeight: 30,
